@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Salohiddin98.github.io/rsschool-cv/cv
