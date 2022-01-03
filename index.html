@@ -9,16 +9,18 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
       rel="stylesheet">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
    <link rel="stylesheet" href="./css/normalize.css">
    <link rel="stylesheet" href="./css/style.css">
 
    <title>Document</title>
 </head>
 
-<body>
+<body class="container">
    <header>
-      <nav class="container">
-         <ul>
+      <nav class="nav__bar">
+         <ul class="flex nav__list">
             <li>Contact</li>
             <li>Summary</li>
             <li>Skills</li>
@@ -28,12 +30,117 @@
          </ul>
       </nav>
    </header>
-   <main class="container">
-      <div class="left_column"></div>
-      <div class="right_columt"></div>
+   <main class="flex">
+      <div class="left__column">
+         <div class="left__column_photo">
+            <img src="./assets/img/CV image.jpg" alt="Personal">
+         </div>
+         <div class="left__column_contact">
+            Contact:
+            Phone: +998 97 4075241
+            Email: salohiddin.rashidov98@gmail.com
+            Telegram: @Doc_RS
+            Discord: Salohiddin (@Salohiddin98)
+         </div>
+         <div class="left__column_skills">
+            Skills:
+            HTML5,CSS
+            JavaScript Basics
+            Java Basics
+            C++ Basics
+            Git,GitHub
+            VS Code, Intellij IDEA
+            Figma
+         </div>
+         <div class="left__column_languages">
+            Languages:
+            Uzbek - Native
+            Russian - Advanced
+            English - Intermediate
+         </div>
+      </div>
+      <div class="right__column">
+         <div class="right__column_info">
+            <h1>Salohiddin Rashidov</h1>
+            <h2>Junior Front-End Developer</h2>
+         </div>
+         <div class="right__column_summary">
+            Summary:
+            I`m study in Tashkent University of Information Technologies. In this year I will graduate and I want start
+            my Developer career.
+            Now I take part in The Rolling Scopes Scool JS basics courses. And learning Java basics in my free time
+            through self-study.
+
+            I worked for two Internet Service Provider companies as an operator. And I have good comunication skills and
+            knowladges about networks.
+
+            I want to became a Java Full Stack Developer in future
+         </div>
+         <div class="right__column_code-example">
+            Code example:
+            <pre>
+            <code>
+            class Human {
+               public String name="Kolya";
+               public static int salary=150;
+               public void work(){
+                   System.out.println("Work");
+               }
+               public static void rest(){
+                   System.out.println("Rest");
+               }
+           }
+           class Student extends Human{
+               public static void main(String[] args) {
+                   Student s=new Student();
+                   System.out.println(s.name);
+                   System.out.println(Student.salary);
+                   s.work();
+                   Student.rest();
+               }
+           }
+           </code>
+         </pre>
+         </div>
+         <div class="right__column_courses">
+            Courses:
+
+            RS Schools Course «JavaScript/Front-end» (in progress)
+            HTML5, CSS, JavaScript, Java courses on ru.code-basics.com (in progress)
+            Java for Beginners: from zero to Oracle certificate on udemy.com (in progress)
+         </div>
+         <div class="right__column_education">
+            Education:
+
+            Bachelor of Software engineering
+            TASHKENT UNIVERSITY OF INFORMATION TECHNOLOGIES NAMED AFTER AL-KHOREZMI
+            Tashkent, Amir Temur street, 108
+            2019-present
+
+            Vocational education of Software and Media Technician
+            TASHKENT PROFESSIONAL COLLAGE OF INFORMATION TECHNOLOGIES
+            Tashkent, Mustakillik street, 7 2013-2016
+
+            Secondary school number 235
+            Tashkent, block 8, 1
+            2008-2013
+
+            Elementary School number 58
+            Tashkent, Chinabad street
+            2004-2008
+         </div>
+      </div>
    </main>
    <footer>
-
+      <ul>
+         <li>
+            <a href="">
+               <i class="fab fa-github">Salohiddin98</i>
+            </a>
+         </li>
+         <li></li>
+         <li></li>
+      </ul>
    </footer>
 
 </body>
