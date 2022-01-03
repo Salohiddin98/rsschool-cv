@@ -61,7 +61,7 @@ header{
 
 .nav__list{
    width: 100%;
-   background-color: #b0ebac;
+   background-color: #DEB887;
    justify-content: space-around;
    border-radius: 10px 10px 0 0;
    border-bottom: #a9a9a9 solid 0.5px;
@@ -83,7 +83,7 @@ color: #6A5ACD;
 
 .left__column {
    width: 35%;
-   background-color: #abeaef;
+   background-color:#4682B4;
    color: black;
 }
 
@@ -167,6 +167,7 @@ margin: 10px auto 25px;
    margin: 10px 0;
    background-color: #2F4F4F;
    color: #F0FFFF;
+   border-radius: 5%;
 }
 .right__column_courses a{
    color: #6A5ACD;
@@ -177,6 +178,7 @@ margin: 10px auto 25px;
 
 .right__column_education-list li:first-child{
   font-weight: bold;
+  font-style: italic;
 }
 .right__column_education-list li:last-child{
 display: inline-block;
@@ -191,6 +193,26 @@ footer{
    background-color: #4f4b4b;
    border-radius: 0 0 10px 10px;
    margin-bottom: 15px;
-   font-size: 16px;
+   font-style: italic;
+   font-size: 16;
    color: white;
+}
+.footer__list{
+   justify-content: space-between;
+   padding: 0 30px;
+   align-items:center;
+}
+.footer__list i{
+color: white;
+padding-right: 10px;
+font-size: 20px;
+}
+
+.footer__list a{
+   color:white;
+}
+
+.footer__list img{
+   margin-top: 5px;
+   height:40px;
 }
