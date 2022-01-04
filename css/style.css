@@ -110,14 +110,14 @@ margin: 0 10px 25px 10px ;
    text-align:center;   
 }
 .left__column_photo{
-width: 200px;
+width: 240px;
 margin: 10px auto 25px;
 
   }
 .left__column_photo img {
-   width: 200px;
-   height: 200px;
-   border-radius: 35%;
+   width: 240px;
+   height: 300px;
+   border-radius: 15%;
    border: #ffdead80 solid 5px;  
 }
 .left__column_contact li{
