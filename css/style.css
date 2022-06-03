@@ -72,10 +72,11 @@ header {
 }
 
 .nav__list a {
-  color: #6a5acd;
+  color: #ffff9f;
 }
 .nav__list a:hover {
-  color: #f00;
+  color: #00755e;
+  transition: 0.5s;
 }
 
 .left__column {
