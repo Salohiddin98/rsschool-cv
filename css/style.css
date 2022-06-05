@@ -148,7 +148,9 @@ header {
 
 .right__column h3 {
   color: #d2691e;
-  margin-top: 20px;
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 24px;
 }
 .right__column_summary {
 }
@@ -163,6 +165,28 @@ header {
   color: #f0ffff;
   border-radius: 5%;
 }
+
+.projects {
+}
+.projects__list {
+  font-size: 18px;
+  color: #000;
+  margin-left: 10px;
+  font-weight: 800;
+  font-style: italic;
+}
+.projects__item {
+  list-style: disc;
+}
+.projects__link {
+  color: #3aa6d0;
+}
+.projects__link:hover {
+  color: #00755e;
+  letter-spacing: 3px;
+  transition: 0.75s;
+}
+
 .right__column_courses a {
   color: #6a5acd;
 }
